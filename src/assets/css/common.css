@@ -1,0 +1,107 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html,
+body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	font-family: "PingFangSC-Regular", "Microsoft YaHei";
+}
+
+ul,
+li,
+dl {
+	list-style: none;
+}
+
+a,
+a:link,
+a:visited,
+a:hover {
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.clearfix:after {
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+input {
+	outline: none;
+}
+
+
+
+
+.main-container {
+    min-width: 1200px;
+    text-align: center;
+}
+
+.center-content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mt-5 {
+	margin-top: 5px;
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.mt-10 {
+	margin-top: 10px;
+}
+
+.mt-15 {
+	margin-top: 15px;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mt-25 {
+	margin-top: 25px;
+}
+
+.mt-30 {
+	margin-top: 30px;
+}
+
+.mt-40 {
+	margin-top: 40px;
+}
+
+.ml-40 {
+	margin-left: 40px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.mt-60 {
+	margin-top: 60px;
+}
+.pr{
+	position: relative;
+}
