@@ -15,6 +15,15 @@ export default {
       msg: 'Welcome to Your Vue.js App'
     }
   },
+  mounted(){
+    this.$router.options.routes.forEach(item => {
+      if (item.name == "index") {
+        console.log( item.children );
+        
+    }
+    });
+    
+  },
   methods:{
     Go(){
       this.$router.push({

@@ -21,6 +21,8 @@ const routes = [{
     children,
   },
 ]
+
+
 const router = new VueRouter({
   mode: 'history',
   routes,
